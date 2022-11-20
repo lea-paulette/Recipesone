@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+.logo{
+  background-image: url(../src/assets/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  width: 17rem;
+  height: 5.5rem;
+}
+header{
+  display:flex;
+  flex-direction: row;
+  align-content: space-around;
+  width: 100%;
+  position:fixed;
+  top:0px;
+  background-color: #242424;
+}
+.window{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+
+}
+.searchBlock{
+  height: 5rem;
+  width: 15rem;
+  background-color: #242424;
+  position:fixed;
+  bottom:0px;
+}
+
+.blockRecipe{
+  background-color:grey;
+  margin: 1rem;
+}
+.blockLog{
+  margin: 1rem;
+}
+
+
+
+
